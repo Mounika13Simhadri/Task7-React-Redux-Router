@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:rosybrown;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  background-color:aliceblue;
+  padding:20px 32px;
+}
+nav a{
+  margin-right:16px;
+}
+
+nav a.active{
+  text-decoration: none;
+  font-weight: bold;
+}
+.userLogin{
+  background-color:rgb(138, 85, 85);
+  color:white;
+  width:400px;
+  height:200px;
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  margin:20px;
+  left:450px;
+  top:80px;
+}
+.header{
+  position:relative;
+  top:20px;
+  left:600px;
+  font-size: x-large;
+  font-weight: bold;
+  color:rgb(114, 55, 55);
+}
+.userLogin label{
+  margin:30px;
+  position: relative;
+  padding:10px 12px;
+  flex-direction:column;
+  font-weight: bold;
+}
+.userLogin button{
+  position: relative;
+  margin:20px;
+  font-weight: bold;
+  width:120px;
+  top:5opx;
+  left:60px;
+  color:rgb(133, 83, 83);
+}
+.userLogin div{
+  margin:20px;
+};
+.dashboard div{
+  margin:30px;
+  position:relative;
+}
+table, th, td {
+
+  border-width: 2px;
+  border-collapse: collapse;
+  padding:20px;
+  border:2px solid brown;
+  margin:30px;
+  text-align: center;
+  color:rgb(36, 2, 2);
+
+
+}
+img{
+  width:250px;
+  height:250px;
+}
+.thank{
+  position: relative;
+  top:13px;
+  left:350px;
+  width:800px;
+  height:550px;
+}
+.display{
+  position:relative;
+  width:250px;
+  height:450px;
+  display: flex;
+  flex-direction:column;
+  border-width: 2em;
+  padding:10px;
+  margin:5px;
+}
+.cart{
+  position:relative;
+  display: flex;
+  flex-direction:row;
+  border-width: 2em;
+  height:20px;
+  width:50px;
+}
+
+.header{
+
+    display:flex;
+    flex-direction: row;
+    color:Maroon;
+    padding:20px;
+    align-items: center;
+  }
+  .etable{
+    position:relative;
+    left:400px;
+  }
+.address{
+  font-weight:bolder;
+  font-size:x-large;
+  background-color:transparent;
+  margin:20px;
+  color:rgb(73, 5, 5);
+}
+.addform{
+  display:flex;
+  flex-direction: column;
+  width:500px;
+  height:350px;
+  margin:40px;
+  padding:30px;
+  background-color:whitesmoke;
+  color:black;
+  position: relative;
+  left:450px;
+  top:-30px;
+}
+.addform input{
+  width:200px;
+  margin:10px;
+  position:relative;
+  left:40px;
+  color:black;
+}
+.addform label{
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  font-weight: bold;
+}
+.addform textarea{
+  width:200px;
+  margin:10px;
+  position:relative;
+  left:40px;
+}
+.addform button{
+  position:relative;
+  left:100px;
+  width:200px;
+  font-weight:bold;
+  font-size:x-large;
+  height:100px;
+  margin:50px;
+  background-color:rgb(87, 7, 7);
+  color:white;
+}
+.page{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin:30px;
+
+}
